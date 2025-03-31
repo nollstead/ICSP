@@ -20,15 +20,6 @@ Looking to easily either load a bootloader or directly program an Arduino Uno bu
 - [Schematic](/schematic.pdf)
 - [Hookup Guide](/Hookup-Guide.md) - Basic hoookup guide for the ICSP
 
-## Optional Accessories (not included)
-
-- [Tag-Connect EC06-Idc 6-pin Castellated Board-Edge Connector](https://www.tag-connect.com/product/ec-06-pcb-edge-connector)
-- [Tag-Connect TC2030-ICESPI Legged Cable](https://www.tag-connect.com/product/tc2030-icespi-legged-cable-for-use-with-atmel-ice?attribute_orientation=LEMTA+-+Ribbon+Connector+reversed+for+Atmel-ICE)
-- [Tag-Connect TC2030-IDC-NL (No-Leg version)](https://www.tag-connect.com/product/tc2030-idc-nl)
-- [Tag-Connect TC2030-CLIP-3PACK](https://www.tag-connect.com/product/tc2030-retaining-clip-board-3-pack)
-
-
-
 ## License Information
 
 This hardware is released under [Creative Commons Share-alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
