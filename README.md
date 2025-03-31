@@ -31,5 +31,5 @@ Looking to easily either load a bootloader or directly program an Arduino Uno bu
 
 ## License Information
 
-This hardware is released under [Creative Commons Share-alike 3.0](https://creativecommons.org/licenses/by-sa/3.0/)  Creative Commons Share-alike 3.0
+This hardware is released under [Creative Commons Share-alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
