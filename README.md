@@ -8,17 +8,17 @@ Looking to easily either load a bootloader or directly program an Arduino Uno bu
 
 - Standard ICSP programmer for AVR-based boards
 - USB-C connector
-- Preloaded with ArduinoISP sketch
+- Preloaded with ArduinoISP sketch, no special libraries needed
 - Transmit (Tx) and Receive (Rx) LEDs
 - Adjustable output voltage of 5.5v or 3.3v via jumper.  Automatically level shifts data pins based on selected target voltage
 - Arduino-IDE compatible.  No need for complex AVRDude commands
-- Keyed ICSP connector eliminate accidental mis-wiring
-- Includes 6-pin double female cable for connecting to standard Arduino ICSP header.  Compatible with Tag-Connect cables for lower profile custom boards (See Accessories)
+- Keyed ICSP connector eliminates accidental mis-wiring or clumbsy jumper wires.
+- Includes 6-pin double female cable for connecting to standard Arduino ICSP header.  Compatible with Tag-Connect cables for lower profile custom boards (See [Hookup Guide](/Hookup-Guide.md))
 
 ## Documentation
 
 - [Schematic](/schematic.pdf)
-- [Hookup Guide](/Hookup-Guide.md) - Basic hoookup guide for the ICSP
+- [Hookup Guide](/Hookup-Guide.md)
 
 ## License Information
 

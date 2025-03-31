@@ -3,8 +3,10 @@
 Looking to program your AVR-based boards without the mess of wires and a breadboard?  In this guide we'll introduct you to the important aspects of the ICSP and how to program different types of boards with it.
 
 - [Board Overview](/Board-Overview.md) - A look at the hardware components that make up the ICSP programmer
-- [Programming an Arduino UNO](/Programming-an-Arduino-Uno.md) - A look at the hardware components that make up the ICSP programmer
-- [Programming a Custom ATMega328P using Tag-Connect](/Programming-a-Custom-ATMega328P.md)
+- [Programming an Arduino UNO](/Programming-an-Arduino-Uno.md) - A simple example of reloading a bootloader onto an Arduino UNO.
+- [Programming a Custom ATMega328P using Tag-Connect](/Programming-a-Custom-ATMega328P.md) - A more interesting example of how to load a bootloader onto a custom ATMega328P based board.  In this example we'll "program the programmer"
+- [Programming an ATTiny88-based Custom Board using Tag-Connect](/Programming-a-Custom-ATMega328P.md) - An even more interesting example of programming something other than an Arduino Uno clone - in this case a custom board based on an Atmega ATTiny88.
+
 
 ## Required Materials
 
