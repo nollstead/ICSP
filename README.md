@@ -1,5 +1,7 @@
 # 3.3v/5v In-Circuit Serial Programmer
 
+![ICSP Header](/images/ICSP.png)
+
 ## Product Overview
 
 Looking to easily either load a bootloader or directly program an Arduino Uno but don't like messing with wires?  How about other AVR products such as an ATTiny45 or ATTiny88 that use 3.3v logic?  This handly ICSP programmer allow you to easily program either commercial or custom AVR-based board with ease.  It comes preloaded with the ArduinoISP sketch so it works within the Arduino IDE environment (no complex AVRDude command-line strings needed).  The onboard CH340C automatically converts USB signals to serial and is recognized by Windows, so no drivers or separate FTDI board required.  Check out our [Hookup Guide](/Hookup-Guide.md) to see how easy it is to program your 5v or 3.3v targets.
