@@ -4,23 +4,47 @@
 
 ## Product Overview
 
-Looking to easily either load a bootloader or directly program an Arduino Uno but don't like messing with wires?  How about other AVR products such as an ATTiny45 or ATTiny88 that use 3.3v logic?  This handly ICSP programmer allow you to easily program either commercial or custom AVR-based board with ease.  It comes preloaded with the ArduinoISP sketch so it works within the Arduino IDE environment (no complex AVRDude command-line strings needed).  The onboard CH340C automatically converts USB signals to serial and is recognized by Windows, so no drivers or separate FTDI board required.  Check out our [Hookup Guide](/Hookup-Guide.md) to see how easy it is to program your 5v or 3.3v targets.
+Looking to easily either load a bootloader or directly program an Arduino Uno but don't like messing with wires?  How about other microcontrollers, such as an ATTiny45 or ATTiny88 that use 3.3v logic?  This handly ICSP programmer allow you to easily program either commercial or custom ISP-capable boards with ease.  
+
+It's powered by an ATMega328P microcontroller and comes preloaded with the ArduinoISP sketch, so out of the box it'll allow you to program any AVR-based target.  Need to program something else - just load your own custom sketch just like any Arduino Uno.
+
+The onboard CH340C automatically converts USB signals to serial and is recognized by Windows, so no drivers or separate FTDI board required.  Check out our [Hookup Guide](#documentation--hookup-guides) to see how easy it is to program your 5v or 3.3v targets.
 
 ## Features & Specs
 
-- Standard ICSP programmer for AVR-based boards
-- USB-C connector
-- Preloaded with ArduinoISP sketch, no special libraries needed
-- Transmit (Tx) and Receive (Rx) LEDs
+- Program any ISP-capable microcontroller.  Comes preloaded with the ArduinoISP sketch, so it can program AVR-based boards out of the box, but load your own sketch to program any other ISP-capable microcontroller.
 - Adjustable output voltage of 5.5v or 3.3v via jumper.  Automatically level shifts data pins based on selected target voltage
+- Preloaded with ArduinoISP sketch, no special libraries needed
 - Arduino-IDE compatible.  No need for complex AVRDude commands
+- USB-C connector
+- Transmit (Tx) and Receive (Rx) LEDs
+- TVS diodes for ESD protection on USB interface
+- 500mA filter on USB to protect against overcurrent draw from target
 - Keyed ICSP connector eliminates accidental mis-wiring or clumbsy jumper wires.
-- Includes 6-pin double female cable for connecting to standard Arduino ICSP header.  Compatible with Tag-Connect cables for lower profile custom boards (See [Hookup Guide](/Hookup-Guide.md))
+- Includes 6-pin double female cable for connecting to standard Arduino ICSP header.  Compatible with Tag-Connect cables for lower profile custom boards.
 
-## Documentation
+## Documentation & Hookup Guides
 
-- [Schematic](/schematic.pdf)
-- [Hookup Guide](/Hookup-Guide.md)
+Looking to program your AVR-based boards without the mess of wires and a breadboard?  In this guide we'll introduct you to the important aspects of the ICSP and how to program different types of boards with it.
+
+- [Programming an Arduino UNO](/Programming-an-Arduino-Uno.md) - A simple example of reloading a bootloader onto an Arduino UNO.
+- [Programming a Custom ATMega328P using Tag-Connect](/Programming-a-Custom-ATMega328P.md) - A more interesting example of how to load a bootloader onto a custom ATMega328P based board.  In this example we'll "program the programmer"
+- [Programming an ATTiny88-based Custom Board](/Programming-a-Custom-ATTiny88.md) - An even more interesting example of programming something other than an Arduino Uno clone - in this case a custom board based on an Atmega ATTiny88.
+
+
+### Required Materials
+
+To follow along with this tutorial, you will need an ICSP programmer and a target board to program.  Our tutorials include programming different types of board but we suggest starting with a standard Arduino Uno.  Additionally, you'll need a USB-C cable to plug into your computer and the Arduino IDE installed.
+
+### Optional Accessories (not included)
+
+While the programmer comes with a standard double-female ICSP cable, enabling it to program a board such as an Arduino Uno out of the box, that's just not something that's done very often.  The real power of this programmer is it's compatibility with Tag-Connect cables, enabling you design and program custom boards that have an ICSP interface with a much smaller footprint.  We recommend using either the Tag-Connect TC2030 Legged or, preferably, the smaller TC2030 no-leg version if space is at a premium on your custom board.  See links below for recommended cables:
+
+- [Tag-Connect EC06-Idc 6-pin Castellated Board-Edge Connector](https://www.tag-connect.com/product/ec-06-pcb-edge-connector)
+- [Tag-Connect TC2030-ICESPI Legged Cable](https://www.tag-connect.com/product/tc2030-icespi-legged-cable-for-use-with-atmel-ice?attribute_orientation=LEMTA+-+Ribbon+Connector+reversed+for+Atmel-ICE)
+- [Tag-Connect TC2030-IDC-NL (No-Leg version)](https://www.tag-connect.com/product/tc2030-idc-nl)
+- [Tag-Connect TC2030-CLIP-3PACK](https://www.tag-connect.com/product/tc2030-retaining-clip-board-3-pack)
+
 
 ## License Information
 
