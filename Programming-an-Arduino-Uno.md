@@ -26,4 +26,7 @@ In addition to burning a bootloader, you can also use the programmer to upload a
 
 To run your sketch, either disconnect the ICSP cable or remove the power jumper and connect your target board to it's own power.  
 
+![Programmer](images/programmer.png)
+
+
 
