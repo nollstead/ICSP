@@ -8,7 +8,7 @@ Looking to easily either load a bootloader or directly program an Arduino Uno bu
 
 It's powered by an ATMega328P microcontroller and comes preloaded with the ArduinoISP sketch, so out of the box it'll allow you to program any AVR-based target.  Need to program something else - just load your own custom sketch just like any Arduino Uno.
 
-The onboard CH340C automatically converts USB signals to serial and is recognized by Windows, so no drivers or separate FTDI board required.  Check out our [Hookup Guide](#documentation--hookup-guides) to see how easy it is to program your 5v or 3.3v targets.
+The onboard CH340C automatically converts USB signals to serial and is recognized by Windows, so no drivers or separate FTDI board required.  Check out our [Hookup Guides](#documentation--hookup-guides) to see how easy it is to program your 5v or 3.3v targets.
 
 ## Features & Specs
 
@@ -45,8 +45,8 @@ The programmer uses a CH340C USB-to-Serial converter.  For most operating system
 While the programmer comes with a standard double-female ICSP cable, enabling it to program a board such as an Arduino Uno out of the box, that's just not something that's done very often.  The real power of this programmer is it's compatibility with Tag-Connect cables, enabling you design and program custom boards that have an ICSP interface with a much smaller footprint.  We recommend using either the Tag-Connect TC2030 Legged or, preferably, the smaller TC2030 no-leg version if space is at a premium on your custom board.  See links below for recommended cables:
 
 - [Tag-Connect EC06-Idc 6-pin Castellated Board-Edge Connector](https://www.tag-connect.com/product/ec-06-pcb-edge-connector)
-- [Tag-Connect TC2030-ICESPI Legged Cable](https://www.tag-connect.com/product/tc2030-icespi-legged-cable-for-use-with-atmel-ice?attribute_orientation=LEMTA+-+Ribbon+Connector+reversed+for+Atmel-ICE)
 - [Tag-Connect TC2030-IDC-NL (No-Leg version)](https://www.tag-connect.com/product/tc2030-idc-nl)
+- [Tag-Connect TC2030-IDC (Leg version)](https://www.tag-connect.com/product/tc2030-idc-6-pin-tag-connect-plug-of-nails-spring-pin-cable-with-legs)
 - [Tag-Connect TC2030-CLIP-3PACK](https://www.tag-connect.com/product/tc2030-retaining-clip-board-3-pack)
 
 
